@@ -1,0 +1,26 @@
+Hey all,
+
+So for this code test I need you to scrape the website (TruePeopleSearch.com) for the first page of results for five different names asynchronously using Python!
+
+Please use the names:
+Joe Smith
+John Smith
+Amy Smith
+Jeff Smith
+Matt Smith
+Don't search too many names on your own connection without using rotating IPs or you will receive an "Access is Denied" message, and you will have to use a VPN!
+
+Upload the code to a private Github Repo & send me the link once you are finished. Please time yourself so we can get a feel for how long it will take you to complete future tasks. Please be honest, don't over or under report your time!
+
+You will need to use rotating proxies & possibly some other tricks in order to scrape this data!
+
+We will be judging the code test on:
+If it's able to complete the task
+How well structured the code is
+How long it took you to code it
+How long it took you to submit the code
+Let me know if you have any questions!
+
+Good luck.
+
+-Nick
