@@ -40,7 +40,8 @@ def get_free_proxies():
             ip = tds[0].text.strip()
             port = tds[1].text.strip()
             host = f"{ip}:{port}"
-            proxies.append(host)
+            if tds[3].text.strip().lower() == "united states":
+                proxies.append(host)
         except IndexError:
             continue
     return proxies
@@ -144,6 +145,8 @@ class ScrapeSite:
             #print("")
         except:
             print("bs4 err")
+            e = sys.exc_info()[0]
+            print(e)
             pass
         
 
